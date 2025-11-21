@@ -5,9 +5,13 @@ A Random-Forest regression model was implemented to estimate tweet counts per sp
 
 Key features:
 • Processing of > 14 M records with pandas and scikit-learn
+
 • Geo-temporal aggregation into 1° grids and daily counts
+
 • Visualization of spatial intensity and error distribution
+
 • RMSE ≈ 20 % relative to mean counts, R² ≈ 0.99 on out-of-sample day
+
 • Discussion of limitations (e.g., event-driven surges, data scope).
 
 Helwig, N., Gao, Y., Wang, S., & Ma, P. (2015). Twitter Geospatial Data [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5RS5J.
